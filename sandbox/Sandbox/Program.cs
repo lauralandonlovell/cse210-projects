@@ -6,4 +6,7 @@ class Program
     {
         Console.WriteLine("HELLO SANDBOX WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
+    {   Console.Write('What is your first name?');
+        string name = Console.ReadLine();
+    }
 }
