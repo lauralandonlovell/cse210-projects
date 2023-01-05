@@ -9,7 +9,7 @@ class Program
         while (guess != mnumber)
         {
             Console.WriteLine("What is the magic number?");
-            Console.WriteLine(mnumber);
+            int mnumber = int.Parse(Console.ReadLine());
         
             Console.Write("What is your guess? ");
             int guess = Convert.ToInt32(Console.ReadLine());
@@ -24,7 +24,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("You guessed it!");
+                Console.WriteLine("Congratulations! You guessed it!");
             }
         }
         
