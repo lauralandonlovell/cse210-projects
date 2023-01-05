@@ -10,6 +10,12 @@ class Program
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to the Program!");
+
+        DisplayWelcome();
+
+        string name = PromptUserName(string first, string last);
+
+        int 
     }
     static string PromptUserName(string first, string last)
     {
@@ -21,5 +27,25 @@ class Program
 
         string name = ($"{fname} {lname}");
         return name;
+    }
+    static int PromtUserNumber(int number)
+    {
+        Console.Write("What is your favorite number? ");
+        int favnumber = int.Parse(Console.ReadLine());
+
+        int fnumber = int.Parse($"{favnumber} is your favorite number!");
+
+        return fnumber;
+    }
+
+    static int SquareNum(int number)
+    {
+        int carre = number * number;
+        return carre;
+    }
+
+    static void DisplayResult(string name, int square)
+    {
+        Console.WriteLine($"{name}, your favorite number squared is {square}");
     }
 }
