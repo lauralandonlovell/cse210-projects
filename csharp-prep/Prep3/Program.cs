@@ -6,18 +6,22 @@ class Program
     {
         
         Console.WriteLine("What is the magic number?");
+        int mnumber = 6;
         
         Console.Write("What is your guess? ");
-        string guess = Console.ReadLine();
+        int guess = Convert.ToInt32(Console.ReadLine());
 
-        int mnumber = 6;
-        if ((Convert.ToInt16(guess)) < mnumber)
+        if (guess < mnumber)
         {
             Console.WriteLine("Higher!");
         }
         else if (guess > mnumber)
         {
             Console.WriteLine("Lower!");
+        }
+        else
+        {
+            Console.WriteLine("You guessed it!");
         }
         
     }
