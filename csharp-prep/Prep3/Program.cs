@@ -12,7 +12,7 @@ class Program
             int mnumber = int.Parse(Console.ReadLine());
         
             Console.Write("What is your guess? ");
-            int guess = Convert.ToInt32(Console.ReadLine());
+            guess = Convert.ToInt32(Console.ReadLine());
         
             if (guess < mnumber)
             {
