@@ -9,9 +9,9 @@ class Program
 
         int fnumber = PromptUserNumber();
 
-        int carre = SquareNumber(fnumber);
+        int square = SquareNumber(fnumber);
 
-        DisplayResult(string name, int carre);
+        DisplayResult(string name, int square);
     }
     static void DisplayWelcome()
     {
