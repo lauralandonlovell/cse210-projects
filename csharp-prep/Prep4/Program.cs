@@ -20,6 +20,8 @@ class Program
                 nums.Add(input);
             }
         }
+
+        int sum = 0;
         
     }
 }
