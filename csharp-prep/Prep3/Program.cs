@@ -4,6 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep3 World!");
+        int mnumber = 6;
+        Console.WriteLine("What is the magic number?");
+        
+        Console.Write("What is your guess? ");
+
+        int guess = Console.ReadLine();
+
+        if (guess === mnumber)
+        {
+            Console.WriteLine("You guessed it on your first try! Congratulations!!");
+        }
+        
     }
+    
 }
