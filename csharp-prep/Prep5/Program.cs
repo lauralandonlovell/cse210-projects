@@ -1,21 +1,21 @@
 using System;
-
 class Program
-{
+{    
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep 5 World!");
-        
-    }
-    static void DisplayWelcome()
-    {
-        Console.WriteLine("Welcome to the Program!");
-
         DisplayWelcome();
 
         string name = PromptUserName(string first, string last);
 
-        int 
+        int fnumber = PromptUserNumber();
+
+        int carre = SquareNumber(fnumber);
+
+        DisplayResult(string name, int carre);
+    }
+    static void DisplayWelcome()
+    {
+        Console.WriteLine("Welcome to the Program!");
     }
     static string PromptUserName(string first, string last)
     {
@@ -28,7 +28,7 @@ class Program
         string name = ($"{fname} {lname}");
         return name;
     }
-    static int PromtUserNumber(int number)
+    static int PromptUserNumber(int number)
     {
         Console.Write("What is your favorite number? ");
         int favnumber = int.Parse(Console.ReadLine());
@@ -38,7 +38,7 @@ class Program
         return fnumber;
     }
 
-    static int SquareNum(int number)
+    static int SquareNumber(int number)
     {
         int carre = number * number;
         return carre;
