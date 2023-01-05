@@ -1,49 +1,44 @@
 using System;
+
 class Program
 {    
     static void Main(string[] args)
     {
-        DisplayWelcome();
+        DisplayWelcomeMessage();
 
-        string name = PromptUserName(string first, string last);
+        string userName = PromptUserName();
 
-        int fnumber = PromptUserNumber();
+        int userNumber = PromptUserNumber();
 
-        int square = SquareNumber(fnumber);
+        int squaredNumber = SquareNumber(userNumber);
 
-        DisplayResult(string name, int square);
+        DisplayResult(userName,squaredNumber);
     }
-    static void DisplayWelcome()
+
+    static void DisplayWelcomeMessage()
     {
         Console.WriteLine("Welcome to the Program!");
     }
-    static string PromptUserName(string first, string last)
+
+    static string PromptUserName()
     {
-        Console.Write("What is your first name? ");
-        string fname = Console.ReadLine();
+        Console.Write("Please enter your name: ");
+        string name = Console.ReadLine();
 
-        Console.Write("What is your last name? ");
-        string lname = Console.ReadLine();
-
-        string name = ($"{fname} {lname}");
         return name;
     }
-    static int PromptUserNumber(int number)
+    static int PromptUserNumber()
     {
         Console.Write("What is your favorite number? ");
-        int favnumber = int.Parse(Console.ReadLine());
+        int number = int.Parse(Console.ReadLine());
 
-        int fnumber = int.Parse($"{favnumber} is your favorite number!");
-
-        return fnumber;
+        return number;
     }
-
     static int SquareNumber(int number)
     {
-        int carre = number * number;
-        return carre;
+        int square = number * number;
+        return square;
     }
-
     static void DisplayResult(string name, int square)
     {
         Console.WriteLine($"{name}, your favorite number squared is {square}");
