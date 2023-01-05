@@ -22,6 +22,12 @@ class Program
         }
 
         int sum = 0;
+        foreach (int num in nums)
+        {
+            sum += num;
+        }
+
+        Console.WriteLine($"The sum is: {sum}");
         
     }
 }
