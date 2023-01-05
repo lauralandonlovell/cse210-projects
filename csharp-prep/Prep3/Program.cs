@@ -8,10 +8,10 @@ class Program
         Console.WriteLine("What is the magic number?");
         
         Console.Write("What is your guess? ");
-        int guess = Console.ReadLine();
+        string guess = Console.ReadLine();
 
         int mnumber = 6;
-        if (guess < mnumber)
+        if ((Convert.ToInt16(guess)) < mnumber)
         {
             Console.WriteLine("Higher!");
         }
