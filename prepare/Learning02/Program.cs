@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         job1 = new Job();
-        job1._company = "Clydesdale Horse Farm";
         job1._jobTitle = "Web Page Administrator";
+        job1._company = "Clydesdale Horse Farm";
         job1._startYear = "2019";
         job1._endYear = "2023";
 
@@ -15,5 +15,7 @@ class Program
         job2._jobTitle = "Baker";
         job2._startYear = "2021";
         job2._endYear = "2023";
+
+        Console.WriteLine($"Job Title: {job1._jobTitle} ({job1._company}))
     }
 }
