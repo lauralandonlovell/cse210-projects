@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Job
 {
     static void Main(string[] args)
     {
