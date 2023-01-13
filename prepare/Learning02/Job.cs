@@ -2,14 +2,20 @@ using System;
 
 public class Job
 {
-    public string _jobTitle = "";
-     public string _company = "";
-    public string _startYear = "";
-    public string _endYear = "";
+    string _jobTitle = "Receptionist";
+    string _company = "";
+    string _startYear = "";
+    string _endYear = "";
 
-    public void Display()
+    static void Main(string [] args)
     {
-        Console.WriteLine($" I have experience in the role of {_jobTitle} working for {_company} from {_startYear} until {_endYear}.");
+        
     }
+    
+
+    // public void Display()
+    // {
+        // Console.WriteLine($" I have experience in the role of {_jobTitle} working for {_company} from {_startYear} until {_endYear}.");
+    // }
 
 }
