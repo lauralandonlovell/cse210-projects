@@ -9,7 +9,7 @@ public class Job
 
     public void Display()
     {
-        Console.WriteLine($" I have experience in the role of {_jobTitle} working for {_company} from {_startYear} until {_endYear}.");
+        Console.WriteLine($"My name is Allison Lovell, and I have experience in the role of {_jobTitle} working for {_company} from {_startYear} until {_endYear}.");
     }
 
 }
