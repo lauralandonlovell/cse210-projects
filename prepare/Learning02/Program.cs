@@ -16,7 +16,7 @@ class Program
         job2._startYear = "2021";
         job2._endYear = "2023";
 
-        Console.WriteLine($"Job Title: {job1._jobTitle} Company:({job1._company}) Duration: {job1._startYear} - {job1._endYear}.");
+        // Console.WriteLine($"Job Title: {job1._jobTitle} Company:({job1._company}) Duration: {job1._startYear} - {job1._endYear}.");
 
         Resume resume1 = new Resume();
         resume1._name = "Allison Lovell";
