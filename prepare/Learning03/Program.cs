@@ -15,7 +15,7 @@ class Program
             Console.WriteLine("4. Read");
             Console.WriteLine("5. Save");
             Console.WriteLine("6. Quit");
-            
+            Console.Write("What would you like to do?");
             Console.ReadLine();
             i++;
         }
