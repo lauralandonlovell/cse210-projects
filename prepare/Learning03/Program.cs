@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning03 World!");
+        Entry entry1 = new Entry();
+        entry1._place = Console.ReadLine();
+        entry1._mood = Console.ReadLine();
+        entry1._dayStart = Console.ReadLine();
+        entry1._dayEnd = Console.ReadLine();
+
+
     }
 }
