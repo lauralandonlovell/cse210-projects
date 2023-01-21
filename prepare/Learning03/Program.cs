@@ -13,22 +13,22 @@ class Program
             {   
 
             }
-            // Console.WriteLine("1. LunchBreak Entry");
-            // Console.WriteLine("2. Write");
-            // Console.WriteLine("3. Display");
-            // Console.WriteLine("4. Read");
-            // Console.WriteLine("5. Save");
-            // Console.WriteLine("6. Quit");
-            // Console.WriteLine("What would you like to do?");
-            // let string response = Console.ReadLine();
+            Console.WriteLine("1. LunchBreak Entry");
+            Console.WriteLine("2. Write");
+            Console.WriteLine("3. Display");
+            Console.WriteLine("4. Read");
+            Console.WriteLine("5. Save");
+            Console.WriteLine("6. Quit");
+            Console.WriteLine("What would you like to do?");
+            let string response = Console.ReadLine();
             
-            // if (response == "1")
-            // {
-            //    class 
-            // }
-            // {
-            //     break;
-            // }
+            //if (response == "1")
+            //{
+              // class 
+            //}
+            //{
+               // break;
+            //}
             i++;
         }
         
