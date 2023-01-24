@@ -22,15 +22,13 @@ class Program
             Console.WriteLine("What would you like to do?");
             let string response = Console.ReadLine();
             
-            //if (response == "1")
-            //{
-              // class 
-            //}
-            //{
-               // break;
-            //}
+            if (response === "1")
+            {
+              break;
+            }
             i++;
         }
+    
         
     }
     
