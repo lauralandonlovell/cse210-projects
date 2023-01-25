@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 class Program
 {
@@ -21,14 +19,17 @@ class Program
             "4. Read",
             "5. Save",
             "6. Quit",
-
-            };
-            foreach (var option in menuOptions)
-            {
-                Console.WriteLine(option);
-            }
-            Console.WriteLine("Please enter a number from the menu above:");
-            //input = Console.ReadLine();//switch statement programiz.com
+        };
+        
+        Console.WriteLine(menuOptions);
+        Console.Write("Type the number of your preference: ");
+        Console.ReadLine();
+            // foreach (var option in menuOptions)
+            // {
+            //     Console.WriteLine(option);
+            // }
+            // Console.WriteLine("Please enter a number from the menu above:");
+            // //input = Console.ReadLine();//switch statement programiz.com
 
             // if (input != "1")
             // {
