@@ -11,16 +11,16 @@ class Program
         // int i = 1;
         // while (i <= 6)
 
-        {
+        //{
             // string input;
-            Console.WriteLine("Welcome to the Journal Program. Enjoy keeping track of your day!");
-            string[] menuOptions = {
-                "1. LunchBreak Entry",
-                "2. Write",
-                "3. Display",
-                "4. Read",
-                "5. Save",
-                "6. Quit",
+        Console.WriteLine("Welcome to the Journal Program. Enjoy keeping track of your day!");
+        string[] menuOptions = {
+            "1. LunchBreak Entry",
+            "2. Write",
+            "3. Display",
+            "4. Read",
+            "5. Save",
+            "6. Quit",
 
             };
             foreach (var option in menuOptions)
