@@ -3,8 +3,7 @@ using System;
 class Entry
 {
     public string _date;
-    {
-        DateTime theCurrentTime = DateTime.Now;
+     DateOnly = DateTime theCurrentTime = DateTime.Now;
         string Entry.today = theCurrentTime.ToShortDateString();
     }
     public string _place;
