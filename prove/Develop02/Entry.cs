@@ -2,9 +2,7 @@ using System;
 
 class Entry
 {
-    public string _date;
-     DateOnly = DateTime theCurrentTime = DateTime.Now;
-        string Entry.today = theCurrentTime.ToShortDateString();
+    
     }
     public string _place;
     public string _mood;
